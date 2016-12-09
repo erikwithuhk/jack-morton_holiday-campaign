@@ -1,3 +1,10 @@
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background: #a3d0dc url('../assets/holiday_background.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -7,6 +14,9 @@ body {
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
@@ -17,6 +27,7 @@ h1, h2 {
 }
 
 h1 {
+  flex: 1;
   font-weight: 700;
   font-size: 1.5rem;
   margin: 1em auto 0;
@@ -24,23 +35,16 @@ h1 {
 }
 
 h2 {
+  flex: 1;
   font-weight: 300;
   font-size: 14px;
   margin: 0.75em auto 2em;
   width: 65%;
 }
 
-/*h1 {
-  font-weight: 700;
-}
-
-h2 {
-  font-weight: 300;
-  font-size: 1rem;
-}*/
-
 video {
   background-color: #e7e8e9;
+  flex: 7;
   width: 100%;
 }
 
