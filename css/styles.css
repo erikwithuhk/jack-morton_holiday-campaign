@@ -19,7 +19,8 @@ h1, h2 {
 h1 {
   font-weight: 700;
   font-size: 1.5rem;
-  margin: 1em 1.5em 0;
+  margin: 1em auto 0;
+  width: 60%
 }
 
 h2 {
@@ -53,12 +54,12 @@ Media Queries
   }
   h1 {
     font-size: 2rem;
-    margin: 1em 0 0;
+    margin: 1em auto 0;
   }
   h2 {
     font-size: 1rem;
     margin: 0.5em auto 2em;
-    width: 50%;
+    width: 40%;
   }
   video {
     width: 90%;
