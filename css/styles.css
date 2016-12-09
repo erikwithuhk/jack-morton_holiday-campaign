@@ -1,5 +1,5 @@
 body {
-  background: url('../assets/holiday_background.jpg') no-repeat center center fixed;
+  background: #a3d0dc url('../assets/holiday_background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #3b8499;
   font: 16px normal 'Futura W02', Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  max-width: 980px;
+  max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
