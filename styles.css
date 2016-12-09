@@ -1,6 +1,7 @@
 body {
   background: url('http://eztechtraining.com/wp-content/uploads/2012/10/clouds1.jpg') no-repeat center center fixed;
   background-size: cover;
+  font: 14px normal Arial, sans-serif;
 }
 
 main {
@@ -11,7 +12,7 @@ main {
 
 video {
   background-color: #e7e8e9;
-  width: 100%;
+  width: 90%;
 }
 
 /* =======================
@@ -19,7 +20,7 @@ Media Queries
 ======================= */
 
 @media screen and (min-width: 1500px) {
-  .video-container {
+  video {
     width: 100%;
   }
 }
