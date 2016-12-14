@@ -1,4 +1,5 @@
 html {
+  font-family: 'Futura W02', Arial, sans-serif;
   font-size: 62.5%;
 }
 
@@ -13,7 +14,7 @@ body {
   background: #a3d0dc url('../assets/holiday_background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #3b8499;
-  font: 1.2rem normal 'Futura W02', Arial, sans-serif;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
