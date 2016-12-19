@@ -30,7 +30,7 @@ main {
 
 h1, h2 {
   animation-name: fade-in;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
 }
 
 h1 {
@@ -51,7 +51,7 @@ h2 {
 
 video {
   animation-name: fade-in;
-  animation-duration: 1s;
+  animation-duration: 2s;
   background-color: #e7e8e9;
   flex: 2;
   width: 50%;
