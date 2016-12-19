@@ -28,6 +28,11 @@ main {
   text-align: center;
 }
 
+h1, h2 {
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+}
+
 h1 {
   flex: 1;
   font-weight: 700;
@@ -45,9 +50,20 @@ h2 {
 }
 
 video {
+  animation-name: fade-in;
+  animation-duration: 1s;
   background-color: #e7e8e9;
   flex: 2;
   width: 50%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* =======================
